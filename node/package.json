@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp con Baileys y backend en Flask",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.7",
+    "form-data": "^4.0.3",
+    "imap": "^0.8.19",
+    "mailparser": "^3.7.3",
+    "mysql2": "^3.14.1",
+    "node-tesseract-ocr": "^2.2.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
